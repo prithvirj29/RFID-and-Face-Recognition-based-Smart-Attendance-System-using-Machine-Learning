@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.env
+dataset/
+attendance.csv
+service_account.json
