@@ -24,6 +24,18 @@ This project works in three main stages:
    - validates that the RFID tag belongs to the same recognized person,
    - records attendance.
 
+## System Architecture
+
+Save the project screenshots in an `assets/` folder in the repository so they display correctly in this README.
+
+![System architecture of the smart attendance system](assets/system-architecture.png)
+
+## Attendance Workflow in Action
+
+The system validates the recognized person and logs the attendance entry to Google Sheets after the RFID tag matches the identified face.
+
+![Google Sheets attendance log after successful RFID + face validation](assets/attendance-output.png)
+
 ## Hardware Requirements
 
 - Raspberry Pi (3/4 recommended)
@@ -62,7 +74,9 @@ RFID-and-Face-Recognition-based-Smart-Attendance-System-using-Machine-Learning/
 ├── service_account.json           # Google Cloud service account credentials
 ├── train_model.py                # Train and save face encodings
 ├── README.md                     # Project documentation
-└── dataset/                      # Face dataset folder (created manually)
+├── assets/                       # Add screenshots used in the README
+├── dataset/                      # Face dataset folder (created manually)
+└── .gitignore
 ```
 
 ## Dataset Preparation
