@@ -30,6 +30,12 @@ Save the project screenshots in an `assets/` folder in the repository so they di
 
 ![System architecture of the smart attendance system](assets/system-architecture.png)
 
+## Google Sheets API Integration
+
+The system uses a Google API service account to securely send attendance records to the Google Sheet after the RFID badge is validated.
+
+![Google Sheets API integration flow](assets/google-sheets-api.png)
+
 ## Attendance Workflow in Action
 
 The system validates the recognized person and logs the attendance entry to Google Sheets after the RFID tag matches the identified face.
